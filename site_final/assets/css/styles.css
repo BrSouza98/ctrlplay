@@ -1,0 +1,118 @@
+a{
+    text-decoration: none;
+
+}
+
+.banner{
+    height: 70vh;
+}
+
+.botoes > .btn-secondary {
+    background-color: unset;
+}
+
+.botoes > .btn-secondary:hover {
+    background-color: rgb(255, 120, 18);
+}
+
+.cabecalho1 > h1 {
+    font-weight: bolder;
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+}
+
+.cabecalho2 > h3 {
+    font-size: 2em;
+    color: rgb(255, 120, 18);
+}
+
+.conteudo-principal{
+    background-color: rgb(239, 239, 239);
+}
+
+.conteudo-cabecalho{
+    font-weight: bolder;
+}
+
+.conteudo-principal > .row > .texto, 
+.conteudo-principal > .row > img {
+    padding: 50px;
+}
+
+.conteudo-secundario{
+    background-color: rgb(83, 16, 135);
+    min-height: 300px;
+    font-weight: bolder;
+}
+
+.titulo-segunda-sessao {
+    color: white;
+    font-weight: bolder;    
+}
+
+.link{
+    color: rgb(82, 82, 82);
+    padding: 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.link-hover:hover{
+    background-color: rgb(29, 41, 85);
+    color: rgb(255, 239, 209);
+    font-weight: bold;
+}
+
+.parallax{
+    background-image: url("../imagens/capa4.jpg");
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.rodape{
+    background-color: rgb(20, 19, 33);
+    color: aliceblue;
+    min-height: 240px;
+}
+
+.rodape-lista{
+    list-style: none;
+}
+
+.rodape-lista > li > a {
+    color: rgb(110, 205, 218)  ;
+}
+
+.rodape-lista > li > a:hover{
+    color: rgb(255, 152, 78);
+    font-weight: bolder;
+}
+
+.rodape-redes-sociais > img{
+    width: 50px;
+    height: 50px;
+}
+
+.rodape-logo > img{
+    width: 200px;
+}
+
+
+
+.texto > .conteudo-cabecalho{
+    font-size: 2em;
+    color: rgb(255, 120, 18);
+}
+
+.texto > h4 {
+    color: rgb(255, 120, 18);
+}
+
+.texto > p {
+    font-size: 20px;
+}
